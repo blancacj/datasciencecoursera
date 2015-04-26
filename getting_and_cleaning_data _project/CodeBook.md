@@ -1,4 +1,86 @@
-#1. file descriptions:
-###Results.txt contains the tidy data set created in step 5 of the instructions.
-###run_analysis.R is the script I created to performe my analysis
-###CodeBook.md lists all the variables and summaries I calculated
+#variable names descriptions for the tidy data set I created
+V1	subject
+V2	activity
+V3	tBodyAcc-mean-X
+V4	tBodyAcc-mean-Y
+V5	tBodyAcc-mean-Z
+V6	tBodyAcc-std-X
+V7	tBodyAcc-std-Y
+V8	tBodyAcc-std-Z
+V9	tGravityAcc-mean-X
+V10	tGravityAcc-mean-Y
+V11	tGravityAcc-mean-Z
+V12	tGravityAcc-std-X
+V13	tGravityAcc-std-Y
+V14	tGravityAcc-std-Z
+V15	tBodyAccJerk-mean-X
+V16	tBodyAccJerk-mean-Y
+V17	tBodyAccJerk-mean-Z
+V18	tBodyAccJerk-std-X
+V19	tBodyAccJerk-std-Y
+V20	tBodyAccJerk-std-Z
+V21	tBodyGyro-mean-X
+V22	tBodyGyro-mean-Y
+V23	tBodyGyro-mean-Z
+V24	tBodyGyro-std-X
+V25	tBodyGyro-std-Y
+V26	tBodyGyro-std-Z
+V27	tBodyGyroJerk-mean-X
+V28	tBodyGyroJerk-mean-Y
+V29	tBodyGyroJerk-mean-Z
+V30	tBodyGyroJerk-std-X
+V31	tBodyGyroJerk-std-Y
+V32	tBodyGyroJerk-std-Z
+V33	tBodyAccMag-mean
+V34	tBodyAccMag-std
+V35	tGravityAccMag-mean
+V36	tGravityAccMag-std
+V37	tBodyAccJerkMag-mean
+V38	tBodyAccJerkMag-std
+V39	tBodyGyroMag-mean
+V40	tBodyGyroMag-std
+V41	tBodyGyroJerkMag-mean
+V42	tBodyGyroJerkMag-std
+V43	fBodyAcc-mean-X
+V44	fBodyAcc-mean-Y
+V45	fBodyAcc-mean-Z
+V46	fBodyAcc-std-X
+V47	fBodyAcc-std-Y
+V48	fBodyAcc-std-Z
+V49	fBodyAcc-meanFreq-X
+V50	fBodyAcc-meanFreq-Y
+V51	fBodyAcc-meanFreq-Z
+V52	fBodyAccJerk-mean-X
+V53	fBodyAccJerk-mean-Y
+V54	fBodyAccJerk-mean-Z
+V55	fBodyAccJerk-std-X
+V56	fBodyAccJerk-std-Y
+V57	fBodyAccJerk-std-Z
+V58	fBodyAccJerk-meanFreq-X
+V59	fBodyAccJerk-meanFreq-Y
+V60	fBodyAccJerk-meanFreq-Z
+V61	fBodyGyro-mean-X
+V62	fBodyGyro-mean-Y
+V63	fBodyGyro-mean-Z
+V64	fBodyGyro-std-X
+V65	fBodyGyro-std-Y
+V66	fBodyGyro-std-Z
+V67	fBodyGyro-meanFreq-X
+V68	fBodyGyro-meanFreq-Y
+V69	fBodyGyro-meanFreq-Z
+V70	fBodyAccMag-mean
+V71	fBodyAccMag-std
+V72	fBodyAccMag-meanFreq
+V73	fBodyBodyAccJerkMag-mean
+V74	fBodyBodyAccJerkMag-std
+V75	fBodyBodyAccJerkMag-meanFreq
+V76	fBodyBodyGyroMag-mean
+V77	fBodyBodyGyroMag-std
+V78	fBodyBodyGyroMag-meanFreq
+V79	fBodyBodyGyroJerkMag-mean
+V80	fBodyBodyGyroJerkMag-std
+V81	fBodyBodyGyroJerkMag-meanFreq
+
+for all information of the data and names, please refer to
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
