@@ -1,10 +1,10 @@
 #variable names descriptions for the tidy data set I created
-V1	subject
-V2	activity
-V3	tBodyAcc-mean-X
-V4	tBodyAcc-mean-Y
-V5	tBodyAcc-mean-Z
-V6	tBodyAcc-std-X
+###V1	subject
+###V2	activity
+###V3	tBodyAcc-mean-X
+###V4	tBodyAcc-mean-Y
+###V5	tBodyAcc-mean-Z
+###V6	tBodyAcc-std-X
 V7	tBodyAcc-std-Y
 V8	tBodyAcc-std-Z
 V9	tGravityAcc-mean-X
