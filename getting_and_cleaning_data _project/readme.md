@@ -1,9 +1,9 @@
-###File descriptions:
+### File descriptions:
 #Results.txt contains the tidy data set created in step 5 of the instructions.
 #run_analysis.R is the script I created to performe my analysis
 #code book lists all the variables and summaries I calculated
 
-###explaination of the analysis code run_anlysis.R
+### explaination of the analysis code run_anlysis.R
 #First, before you run the code,make sure that the current working directory is the directory where the data has been saved
 
 #step 1: I used read.table() to read in all the inertial signal data sets, subject data sets(subject_test and subject_train), activities data sets(Y_test and Y_train), and the processed information data sets (X_train, and X_test).
